@@ -4,7 +4,7 @@
 **Alumno(s):** [MATHIAS CAYCHO TARAZONA / ROBERTO ESCOBAR SOTELO]  
 **Grupo:** [GRUPO 4]  
 **Fecha de entrega:** 19 de Junio 2026  
-**Repositorio:** [pega aquí el link de GitHub o nube]
+**Repositorio:** [https://github.com/mathias-fct/proyecto-shell-scripting]
 
 ---
 
