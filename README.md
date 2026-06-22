@@ -1,10 +1,10 @@
 # Sistema de Automatización para Administración de Servidores Linux
 ## Proyecto Parcial — Shell Scripting | IDAT Escuela de Tecnología
 
-**Alumno(s):** [MATHIAS CAYCHO TARAZONA / ROBERTO ESCOBAR SOTELO]  
-**Grupo:** [GRUPO 4]  
-**Fecha de entrega:** 19 de Junio 2026  
-**Repositorio:** [https://github.com/mathias-fct/proyecto-shell-scripting]
+**Alumno(s):** MATHIAS CAYCHO TARAZONA / ROBERTO ESCOBAR SOTELO  
+**Grupo:** GRUPO 4  
+**Fecha de entrega:** 22 de Junio 2026  
+**Repositorio:** https://github.com/mathias-fct/proyecto-shell-scripting
 
 ---
 
@@ -19,8 +19,8 @@ Este proyecto resuelve esas tres tareas con scripts en Bash que pueden ejecutars
 ## Estructura del Proyecto
 
 ```
-proyecto-shell/
-├── scripts/
+proyecto-shell-scripting/
+├── scripts-shell/
 │   ├── 01_sistema_info.sh        # Información del sistema
 │   ├── 02_gestor_archivos.sh     # Gestión de archivos y permisos
 │   ├── 03_automatizacion.sh      # Cron + AWK + SED
@@ -48,7 +48,7 @@ proyecto-shell/
 ### Opción A — Ejecutar todo el proyecto de una vez
 
 ```bash
-cd proyecto-shell/scripts/
+cd proyecto-shell-scripting/scripts-shell/
 chmod +x *.sh
 ./ejecutar_proyecto.sh
 ```
@@ -140,7 +140,7 @@ chmod +x 03_automatizacion.sh
   Criterio   : archivos con más de 7 día(s) de antigüedad
 
   Archivo: basura_1.tmp
-  Ruta   : /home/user/proyecto-shell/archivos_trabajo/temporales/basura_1.tmp
+  Ruta   : /home/user/proyecto-shell-scripting/archivos_trabajo/temporales/basura_1.tmp
     ¿Eliminar este archivo? (s/n): s
     --> [OK] Eliminado (intento 1)
 ```
@@ -161,7 +161,7 @@ chmod +x 03_automatizacion.sh
 
 **Ejemplo de la tarea cron programada:**
 ```
-0 8 * * * /home/user/proyecto-shell/scripts/01_sistema_info.sh >> /logs/cron_sistema.log 2>&1
+0 8 * * * /home/user/proyecto-shell-scripting/scripts-shell/01_sistema_info.sh >> /logs/cron_sistema.log 2>&1
 ```
 
 **Interpretación:**
