@@ -3,7 +3,7 @@
 
 **Alumno(s):** MATHIAS CAYCHO TARAZONA / ROBERTO ESCOBAR SOTELO  
 **Grupo:** GRUPO 4  
-**Fecha de entrega:** 22 de Junio 2026  
+**Fecha de entrega:** 6 de Julio 2026  
 **Repositorio:** https://github.com/mathias-fct/proyecto-shell-scripting
 
 ---
@@ -24,7 +24,6 @@ proyecto-shell-scripting/
 │   ├── 01_sistema_info.sh        # Información del sistema
 │   ├── 02_gestor_archivos.sh     # Gestión de archivos y permisos
 │   ├── 03_automatizacion.sh      # Cron + AWK + SED
-│   └── ejecutar_proyecto.sh      # Ejecuta todo en orden
 ├── reportes/                     # Se crea automáticamente
 ├── logs/                         # Se crea automáticamente
 └── datos/                        # Se crea automáticamente
